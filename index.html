@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RPG Hero's Journey</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!--  Background Music -->
+    <audio id="bgMusic" src="bgm.m4a"></audio>
+
+  <!--  Music Toggle Button -->
+  <button id="musicToggle">Music: ON</button>
+  <div id="game">
+    <div id="stats">
+      <span class="stats">XP: <strong><span id="xpText">0</span></strong></span>
+      <span class="stats">Health: <strong><span id="healthText">100</span></strong></span>
+      <span class="stats">Gold: <strong><span id="goldText">50</span></strong></span>
+    </div>
+    <div id="controls">
+      <button id="button1">Go To Store</button>
+      <button id="button2">Go To Cave</button>
+      <button id="button3">Fight the Necrothorn</button>
+    </div>
+    <div id="monsterStats">
+      <span class="stats">Monster Name: <strong><span id="monsterName"></span></strong></span>
+      <span class="stats">Health: <strong><span id="monsterHealthText"></span></strong></span>
+    </div>
+    <div id="text">
+      Welcome to RPG: Hero's Journey! <br />
+      You are the chosen hero, destined to defeat the Undead King and save the world. The fate of the land is in your hands.
+      <br /><br />
+      In the town square, tension fills the air. <br />
+      Villagers whisper in fear as shadows loom over the streets. The Undead King’s armies have risen, and only you can stop them. <br />
+      Where do you want to go? Use the above buttons.
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
